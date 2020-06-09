@@ -1,0 +1,30 @@
+#S{
+    margin-left: 400px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    color: blueviolet;
+    font-size: 40px;
+}
+#NS{
+    margin-left: 400px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+#thank{
+    font-size: 50px;
+}
+@media only screen and (max-width: 768px){
+    #S{
+        font-size: 20px;
+        margin-left: 30px;
+        width:100%;
+    }
+    #NS{
+        margin-left: 0px;
+        width:100%;
+        font-size: 20px;
+    }
+    #thank{
+        font-size: 30px;
+    }
+}
