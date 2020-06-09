@@ -22,10 +22,10 @@ class  Home extends React.Component {
     };
   }
   login=()=>{
-		window.location.replace('http://localhost:3000/loginPatient');
+		window.location.replace('https://obscure-river-10857.herokuapp.com/loginPatient');
 	}
 	login2=()=>{
-		window.location.replace('http://localhost:3000/loginAdmin');
+		window.location.replace('https://obscure-river-10857.herokuapp.com/loginAdmin');
   }
   onCheck=()=>{
     fetch('https://pomber.github.io/covid19/timeseries.json')
